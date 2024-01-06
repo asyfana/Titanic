@@ -5,7 +5,7 @@ import warnings
 
 warnings.filterwarnings("ignore")
 
-st.sidebar.title("Menu Utama")
+st.sidebar.title("Menu Utama di siniiiiii")
 formside = st.sidebar.form("side_form")
 choose = formside.radio("pilih menu",["Titanic Data ehe", "Survived","Chart"], index=None)
 formside.form_submit_button("Submit")
